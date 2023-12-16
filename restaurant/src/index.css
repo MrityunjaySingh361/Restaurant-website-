@@ -1,0 +1,71 @@
+
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #065e19;
+}
+
+.menu, .cart {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5%;
+}
+
+h2 {
+  color: #065e19;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cart {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu, .cart {
+    width: 100%;
+    margin-right: 0;
+  }
+}
